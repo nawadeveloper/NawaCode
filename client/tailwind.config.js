@@ -13,9 +13,9 @@ export default {
         },
       },
 
-      // fontFamily: {
-      //   quickSand: ["Quicksand", "sans-serif"],
-      // },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
     },
   },
   plugins: [],
