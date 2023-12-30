@@ -18,8 +18,21 @@ body {
   font-variation-settings: "FILL" 1;
 }
 
-nav.mobile_nav > a {
+nav.mobile_nav > div {
+  width: 100%;
+}
+
+nav.mobile_nav > div > a {
   padding: 12px;
+  display: block;
   width: 100%;
   text-align: center;
+}
+
+div.header_gradient {
+  background: linear-gradient(
+    to bottom,
+    rgba(40, 48, 48, 0.8),
+    rgba(40, 48, 48, 1)
+  );
 }
