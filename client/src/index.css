@@ -36,3 +36,24 @@ div.header_gradient {
     rgba(40, 48, 48, 1)
   );
 }
+
+section.hero {
+  background-color: #7ae7c7;
+  opacity: 0.8;
+  background: linear-gradient(135deg, #76d0b555 25%, transparent 25%) -40px 0/
+      80px 80px,
+    linear-gradient(225deg, #76d0b5 25%, transparent 25%) -40px 0/ 80px 80px,
+    linear-gradient(315deg, #76d0b555 25%, transparent 25%) 0px 0/ 80px 80px,
+    linear-gradient(45deg, #76d0b5 25%, #7ae7c7 25%) 0px 0/ 80px 80px;
+}
+
+div.profile_card {
+  box-shadow: 1px 1px 20px 2px rgba(40, 48, 48, 1);
+  -webkit-box-shadow: 1px 1px 20px 2px rgba(40, 48, 48, 1);
+  -moz-box-shadow: 1px 1px 20px 2px rgba(40, 48, 48, 1);
+}
+
+div.curve {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0 80%);
+  /* clip-path: circle(250% at 50% -300%); */
+}

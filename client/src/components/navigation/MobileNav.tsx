@@ -19,7 +19,7 @@ const MobileNav = ({ className }: MobileNavProps) => {
           className="text-3xl cursor-pointer text-white"
         />
       </div>
-      <AnimatePresence mode="wait">
+      <AnimatePresence>
         {menu && (
           <NavLinks
             className="grid p-10 transition-all place-items-center divide-y-2 absolute left-0 right-0 top-full bg-nawa-400 uppercase z-10 font-bold mobile_nav md:hidden origin-top"

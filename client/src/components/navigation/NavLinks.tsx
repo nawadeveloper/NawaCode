@@ -8,22 +8,22 @@ type NavLinksProps = {
 const navAnimationVar = {
   initial: {
     opacity: 0,
-    //  scaleY: 0
+    // scaleX: 0.9,
   },
   open: {
     opacity: 1,
-    // scaleY: 1,
+    // scaleX: 1,
     transition: {
-      duration: 0.5,
+      duration: 0.8,
       staggerChildren: 0.09,
       staggerDirection: 1,
     },
   },
   closed: {
     opacity: 0,
-    // scaleY: 0,
+    // scaleX: 0.9,
     transition: {
-      duration: 0.5,
+      duration: 0.8,
       staggerChildren: 0.09,
       staggerDirection: -1,
     },
@@ -33,13 +33,16 @@ const navAnimationVar = {
 const linkAnimationVar = {
   initial: {
     y: -20,
+    opacity: 0,
   },
   open: {
     y: 0,
+    opacity: 1,
   },
 
   closed: {
     y: 20,
+    opacity: 0,
   },
 };
 
