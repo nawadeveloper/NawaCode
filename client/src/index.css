@@ -14,6 +14,10 @@ body {
   @apply xl:max-w-7xl lg:max-w-5xl md:max-w-4xl sm:max-w-2xl mx-auto;
 }
 
+.display_size_compact {
+  @apply xl:max-w-5xl lg:max-w-4xl sm:max-w-2xl px-1 mx-auto;
+}
+
 .material-symbols-rounded.filled {
   font-variation-settings: "FILL" 1;
 }

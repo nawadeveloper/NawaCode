@@ -15,6 +15,7 @@ export default {
 
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
+        ultra: ["Ultra", "serif"],
       },
     },
   },

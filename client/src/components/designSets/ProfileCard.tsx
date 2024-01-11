@@ -6,11 +6,11 @@ const ProfileCard = () => {
   return (
     <div className="bg-white rounded-lg overflow-hidden profile_card z-10 relative">
       <div className="h-80 bg-gray-200 curve">
-        <img
+        {/* <img
           className="w-full h-full object-cover"
           src="/profile_pic.png"
           alt="Nawaraj Bista"
-        />
+        /> */}
       </div>
       <div className="text-center py-4">
         <h2 className="font-bold text-lg text-nawa-500 uppercase">
