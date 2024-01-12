@@ -9,7 +9,7 @@ const ProcessStep = (props: processProps) => {
   return (
     <div className="text-nawa-200 px-6 md:px-0">
       <div className="flex gap-5 items-center mb-4">
-        <div className="w-14 h-14 bg-nawa-200 rounded-full grid place-items-center">
+        <div className="w-14 h-14 bg-nawa-100 rounded-full grid place-items-center">
           <span className="material-symbols-rounded text-nawa-400 text-3xl">
             {props.icon}
           </span>
@@ -23,7 +23,7 @@ const ProcessStep = (props: processProps) => {
           </span>
         </div>
       </div>
-      <p className="text-justify">{props.detail}</p>
+      <p className="text-justify text-white">{props.detail}</p>
 
       <div className="flex justify-center py-5">
         <span className="material-symbols-rounded text-9xl">
