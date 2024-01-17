@@ -28,6 +28,14 @@ const titleVariations = {
   },
 };
 
+const miniTitleVariations = {
+  initial: { y: -20, opacity: 0 },
+  animate: {
+    y: 0,
+    opacity: 1,
+  },
+};
+
 const figureVariations = {
   initial: { scale: 0 },
   animate: { scale: 1 },
@@ -60,7 +68,10 @@ const ProcessStep = (props: processProps) => {
           </span>
         </div>
       </motion.div>
-      <motion.p variants={titleVariations} className="text-justify text-white">
+      <motion.p
+        variants={miniTitleVariations}
+        className="text-justify text-white"
+      >
         {props.detail}
       </motion.p>
 
