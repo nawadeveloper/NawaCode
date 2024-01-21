@@ -15,6 +15,11 @@ const viewVariation = {
   },
 };
 
+const pieceVariations = {
+  initial: { opacity: 0, scale: 0.5 },
+  animate: { opacity: 1, scale: 1 },
+};
+
 type source = {
   img: string;
   title: string;
@@ -26,8 +31,9 @@ const ShowPiece = ({ img, title, tecUsed, link }: source) => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div
+      <motion.div
         onClick={() => setOpen(!open)}
+        variants={pieceVariations}
         className="h-96 overflow-hidden border-2 border-nawa-400"
       >
         <motion.div
@@ -47,7 +53,7 @@ const ShowPiece = ({ img, title, tecUsed, link }: source) => {
             </button>
           </motion.div>
         </motion.div>
-      </div>
+      </motion.div>
 
       {open && (
         <ShowPieceLarge
